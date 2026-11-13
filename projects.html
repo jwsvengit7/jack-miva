@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Projects | Temple Jack</title>
+
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/main.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img
+            src="images/logo.svg"
+            width="80"
+            height="60"
+            alt="Temple Jack logo"
+          />
+        </a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html">About</a>
+          </li>
+
+          <li>
+            <a href="projects.html" class="active">Projects</a>
+          </li>
+
+          <li>
+            <a href="planner.html">Planner</a>
+          </li>
+
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Page Hero -->
+      <section class="page-hero">
+        <p class="small-title">MY WORK</p>
+
+        <h1>Projects</h1>
+
+        <p>
+          Selected projects and systems I have worked on across fintech,
+          banking, payments, and digital products.
+        </p>
+      </section>
+
+      <!-- Projects -->
+      <section class="section">
+        <div class="project-grid">
+          <!-- Project 1 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/fcmb.png"
+                alt="FCMB banking integration platform"
+              />
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">PROJECT 01</span>
+
+              <h2>FCMB Integration</h2>
+
+              <p>
+                Backend services supporting FCMB's digital banking and payment
+                workflows, including transfers, name enquiry, transaction
+                requery, idempotency, NIP integration and multi-router
+                processing.
+              </p>
+
+              <div class="technology-list">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>REST APIs</span>
+                <span>RabbitMQ</span>
+                <span>Redis</span>
+                <span>SQL</span>
+              </div>
+
+              <a href="#" class="text-link"> View Project → </a>
+            </div>
+          </article>
+
+          <!-- Project 2 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img src="images/Isds.png" alt="UJOVA Payment application" />
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">PROJECT 02</span>
+
+              <h2>ISDS</h2>
+
+              <p>
+                An all-in-one payment platform designed to make everyday
+                payments easier, including airtime, mobile data, electricity,
+                water and other digital services.
+              </p>
+
+              <div class="technology-list">
+                <span>Flutter</span>
+                <span>Dart</span>
+                <span>Bloc</span>
+                <span>Riverpod</span>
+                <span>NestJS</span>
+              </div>
+
+              <a href="#" class="text-link"> View Project → </a>
+            </div>
+          </article>
+
+          <!-- Project 3 -->
+          <article class="project-card">
+            <div class="project-image">
+              <img
+                src="images/digikolo.jpeg"
+                alt="DigiKolo digital financial application"
+              />
+            </div>
+
+            <div class="project-content">
+              <span class="project-number">PROJECT 03</span>
+
+              <h2>DigiKolo</h2>
+
+              <p>
+                A digital financial application involving backend services and
+                mobile features for managing financial products and customer
+                operations.
+              </p>
+
+              <div class="technology-list">
+                <span>Java</span>
+                <span>Spring Boot</span>
+                <span>Vert.x</span>
+                <span>Flutter</span>
+                <span>RabbitMQ</span>
+                <span>WebSocket</span>
+              </div>
+
+              <a href="#" class="text-link"> View Project → </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <h3>Temple Jack</h3>
+          <p>Software Engineer</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="planner.html">Planner</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          © <span id="copyrightYear"></span> Temple Jack Chiorlu. All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+2026-11-11 07:04:02.974 INFO 1 --- [io-4207-exec-81]
+c.t.m.o.m.u.service.FcmbUserService : [!dt
+dt.entity.process_group=PROCESS_GROUP-C9DB723E74DBDEFE,
+k8s.container.name=fcmb-operations, dt.trace_sampled=false,
+k8s.namespace.name=fcmb-mob-prod, k8s.cluster.name=newmobileaksv2,
+dt.entity.process_group_instance=PROCESS_GROUP_INSTANCE-13132135582C8E2A,
+dt.kubernetes.workload.kind=deployment,
+k8s.pod.uid=eaec8155-68e8-4ac7-9a90-37a0645db9d1, k8s.workload.kind=deployment,
+dt.span_id=d3a5c5e66baf545c,
+dt.kubernetes.cluster.id=c1af64f0-4115-4d4c-b244-0c6a732465f9,
+dt.entity.host=HOST-2539C9A75453C9D7,
+k8s.cluster.uid=c1af64f0-4115-4d4c-b244-0c6a732465f9,
+dt.kubernetes.workload.name=fcmb-operations,
+dt.trace_id=bc8f318ba15779df09dd1c9cc109bcbe,
+k8s.node.name=aks-exnodepool2-24112981-vmss00000w,
+k8s.workload.name=fcmb-operations,
+k8s.pod.name=fcmb-operations-6d445d54c7-h8v79,
+dt.entity.host_group=HOST_GROUP-5182707BDC837C6A,
+dt.entity.kubernetes_cluster=KUBERNETES_CLUSTER-9F116CA309B7EEAD,
+dt.host_group.id=newmobileaks] [360degrees] [UPDATE +TRANSACTION PIN]
+Unauthorized profile access

@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Academic Planner | Temple Jack</title>
+
+    <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/planner.js" defer></script>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <header class="header">
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          <img src="images/logo.svg" width="80" height="60" />
+        </a>
+
+        <button class="menu-btn" id="menuBtn">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+          <li>
+            <a href="index.html" class="active">Home</a>
+          </li>
+
+          <li>
+            <a href="about.html">About</a>
+          </li>
+
+          <li>
+            <a href="projects.html">Projects</a>
+          </li>
+
+          <li>
+            <a href="planner.html">Planner</a>
+          </li>
+
+          <li>
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="small-title">STUDENT MANAGEMENT</p>
+
+        <h1>Academic Planner</h1>
+
+        <p>Add, complete and delete your academic tasks.</p>
+      </section>
+
+      <section class="section">
+        <div class="planner-container">
+          <div class="planner-header">
+            <div>
+              <p class="small-title">MY TASKS</p>
+
+              <h2>Academic Activities</h2>
+            </div>
+
+            <div class="task-count">
+              <span id="taskCount">0</span>
+
+              <small>Tasks</small>
+            </div>
+          </div>
+
+          <div class="task-form">
+            <input
+              type="text"
+              id="taskInput"
+              placeholder="Enter an academic task..."
+            />
+
+            <button type="button" id="addTask" class="btn primary-btn">
+              + Add Task
+            </button>
+          </div>
+
+          <p id="emptyMessage" class="empty-message">
+            No tasks yet. Add your first academic task.
+          </p>
+
+          <ul id="taskList" class="task-list"></ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div>
+          <h3>Temple Jack</h3>
+          <p>Software Engineering Student</p>
+        </div>
+
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="projects.html">Projects</a>
+          <a href="planner.html">Planner</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+
+      <div class="copyright">
+        <p>
+          © <span id="copyrightYear"></span> Temple Jack Chiorlu. All Rights
+          Reserved.
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
